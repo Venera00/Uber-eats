@@ -1,0 +1,136 @@
+/* Tablets */
+
+@media (max-width: 768px) {
+  .header_logo {
+    margin-left: 8px;
+  }
+
+  .header_nav {
+    margin-left: 414px;
+  }
+
+  .main-section_card {
+    margin-left: 8px;
+    width: 432px;
+    height: 204px;
+  }
+
+  .main-section {
+    background-size: cover;
+    height: 364px;
+  }
+
+  .nav-menu_list {
+    padding-left: 8px;
+  }
+
+  .section-dishes {
+    margin-left: 8px;
+  }
+
+  .dishes-card_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dishes_card {
+    width: 752px;
+  }
+
+  .footer_container {
+    padding-left: 8px;
+  }
+
+  hr {
+    width: 752px;
+  }
+
+  .footer-other {
+    padding-left: 86px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header_nav {
+    margin-left: 46px;
+  }
+
+  .main-section {
+    background-image: url(../assets/mobile_main_photo.png);
+    background-size: contain;
+  }
+
+  .main-section_card {
+    width: 308px;
+    height: 180px;
+    top: 203px;
+  }
+
+  .section-card_title {
+    font-size: 24px;
+    padding: 24px 49px 40px 49px;
+  }
+
+  .card_flex {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .section-dishes_title {
+    margin: 56px 118px;
+  }
+
+  .dishes_card {
+    width: 306px;
+  }
+
+  .dishes-card_grid {
+    gap: 1px;
+  }
+
+  .dishes_card {
+    margin-left: 0;
+    height: 117px;
+    border: none;
+    border-bottom: 1px solid #757575;
+  }
+
+  .dishes-card_img {
+    width: 102px;
+    height: 102px;
+    margin-top: 16px;
+  }
+
+  .dishes-card_title {
+    font-size: 14px;
+  }
+
+  .dishes-card_price {
+    padding-top: 41px;
+  }
+
+  .dishes-card_price--padding {
+    padding-top: 16px;
+  }
+
+  .footer {
+    height: 769px;
+  }
+
+  .footer_wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-other {
+    padding: 23px 0 0 2px;
+  }
+
+  .footer_last {
+    flex-direction: column;
+    gap: 23px;
+    align-items: flex-start;
+  }
+}

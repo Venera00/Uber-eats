@@ -1,0 +1,26 @@
+:root {
+  --main-font-weight: 400;
+  --main-background-color: #262626;
+  --secondary-color: #626262;
+  --button-click-color: #57ad56;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1d1d1d;
+}
+
+a,
+li {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
